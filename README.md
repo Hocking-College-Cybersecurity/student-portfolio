@@ -23,3 +23,19 @@ Welcome to your portfolio repository! This README explains how you will add work
 - Contact your instructor for support.
 
 Happy coding and portfolio building!
+
+# Student Portfolio Template
+
+Welcome! This repository is a template for your cybersecurity portfolio at Hocking College.
+
+## How to use
+
+- Update `_config.yml` with your name, bio, avatar, and portfolio URL.
+- Add your courses to `_data/courses.yml`.
+- Add your projects to `_data/projects.yml`.
+- Update your contact info in `index.md`.
+- Push your changes to GitHub and enable GitHub Pages to publish your site.
+
+## Need help?
+
+Contact your instructor or visit the organization site for more info.

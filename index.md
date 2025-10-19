@@ -1,20 +1,20 @@
 ---
 layout: default
-title: "Jane Doe — Cybersecurity Portfolio"
+title: "{{ site.title }}"
 ---
 
-# Jane Doe
+# {{ site.name }}
 
 **Cybersecurity Student, Hocking College**  
 Class of 2026
 
-![Avatar](https://avatars.githubusercontent.com/u/000000?v=4)
+![Avatar]({{ site.avatar_url }})
 
 ---
 
 ## About Me
 
-_A brief bio here._
+{{ site.bio }}
 
 ---
 
@@ -47,6 +47,6 @@ _A brief bio here._
 
 ## Contact
 
-- [Email](mailto:your.email@hocking.edu)
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [GitHub](https://github.com/yourusername)
+- [Email](mailto:your.email@hocking.edu) <!-- Update this! -->
+- [LinkedIn](https://linkedin.com/in/yourprofile) <!-- Update this! -->
+- [GitHub](https://github.com/yourusername) <!-- Update this! -->
