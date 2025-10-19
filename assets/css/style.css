@@ -160,27 +160,66 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .student-card {
-  background: var(--card-bg);
+  background: #fff;
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 14px;
-  transition: transform .12s, box-shadow .12s;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(12,20,55,0.06);
+  transition: transform 0.12s, box-shadow 0.12s;
   text-align: left;
+  margin-bottom: 1.5em;
 }
 
 .student-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(12,20,55,0.08);
+  box-shadow: 0 8px 24px rgba(12,20,55,0.12);
 }
 
 .student-link { text-decoration: none; color: inherit; display: block; }
-.student-meta { display: flex; gap: 12px; align-items: center; }
-.student-avatar { width: 56px; height: 56px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border); }
-.student-avatar.placeholder { width: 56px; height: 56px; border-radius: 8px; background: linear-gradient(180deg,#e2e8f0,#f8fafc); border: 1px dashed var(--border); }
-.student-name { margin: 0; font-size: 1.05rem; }
-.student-title { margin: 0; color: var(--muted); font-size: .9rem; }
-.student-bio { color: #111827; margin: 10px 0 6px; }
-.student-repo { color: var(--muted); margin: 0; font-size: .85rem; }
+.student-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.student-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.student-avatar.placeholder { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(180deg,#e2e8f0,#f8fafc); border: 1px dashed var(--border); }
+.student-name {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.student-title {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.student-bio {
+  color: #222;
+  margin: 10px 0 14px 0;
+}
+
+.portfolio-link {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.5em 1.2em;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.portfolio-link:hover {
+  background: var(--secondary-color);
+}
 
 .site-footer {
   padding: 18px 0;
