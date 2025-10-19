@@ -118,17 +118,18 @@ h1, h2, h3, h4, h5, h6 {
 .portfolios { margin-top: 18px; }
 
 .hero-section {
-  background: #1a2332;
-  color: #fff;
-  padding: 2em 1em;
+  background: linear-gradient(135deg, #eef2ff 0%, #ffffff 100%);
+  padding: 2.5em 1.5em 2em 1.5em;
+  border-radius: 16px;
   text-align: center;
-  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(12,20,55,0.06);
   margin-bottom: 2em;
 }
 
 .hero-section .lead {
   font-size: 1.2em;
-  margin: 1em 0;
+  color: var(--muted);
+  margin: 1em 0 0 0;
 }
 
 .section-divider {
