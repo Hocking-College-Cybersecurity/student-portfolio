@@ -6,12 +6,20 @@ Please fill out the relevant section below. The automation will update your port
 
 ---
 
+
 ## Initial Portfolio Setup
 - **Full Name:**
 - **Preferred Name (if different):**
 - **Bio (1-2 sentences):**
 - **Profile Picture URL (optional):**
 - **Contact Email (optional):**
+- **Graduation Year:**
+- **Skills (comma-separated):**
+- **Social Links (GitHub, LinkedIn, etc.):**
+	- GitHub:
+	- LinkedIn:
+	- Twitter:
+	- Other:
 
 ---
 
